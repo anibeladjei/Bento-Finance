@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bento Finance | Modern Banking for the Digital Age</title>
+    <meta name="description" content="Experience the future of finance with Bento Finance. Seamless transactions, intelligent insights, and unmatched security." />
+    <meta name="author" content="Lovable" />
+
+    <meta property="og:title" content="Bento Finance | Modern Banking for the Digital Age" />
+    <meta property="og:description" content="Experience the future of finance with Bento Finance. Seamless transactions, intelligent insights, and unmatched security." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-display@400;500;600;700&display=swap">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container header-container">
+          <div class="logo">
+            <h1 class="logo-text">
+              <span class="gradient-text">Bento</span>
+              <span>Finance</span>
+            </h1>
+          </div>
+
+          <nav class="desktop-nav">
+            <ul class="nav-links">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#dashboard">Dashboard</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+            <div class="nav-buttons">
+              <button class="btn btn-outline">Log in</button>
+              <button class="btn btn-primary">
+                Get Started 
+                <i data-lucide="chevron-right"></i>
+              </button>
+            </div>
+          </nav>
+
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+          <button class="close-menu-btn" id="closeMenuBtn">
+            <i data-lucide="x"></i>
+          </button>
+          <ul class="mobile-nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <div class="mobile-nav-buttons">
+            <button class="btn btn-outline">Log in</button>
+            <button class="btn btn-primary">
+              Get Started 
+              <i data-lucide="chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+          <div class="bg-gradient-1"></div>
+          <div class="bg-gradient-2"></div>
+          
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="hero-title">
+                Modern Banking for the <span class="gradient-text">Digital Age</span>
+              </h1>
+              <p class="hero-subtitle">
+                Experience the future of finance with our cutting-edge platform. 
+                Seamless transactions, intelligent insights, and unmatched security.
+              </p>
+              <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg">
+                  Get Started
+                  <i data-lucide="arrow-right"></i>
+                </button>
+                <button class="btn btn-outline btn-lg">How It Works</button>
+              </div>
+              
+              <div class="hero-stats">
+                <div class="stat-card">
+                  <div class="stat-icon">
+                    <i data-lucide="bar-chart-3"></i>
+                  </div>
+                  <h3 class="stat-title">$2.4B+</h3>
+                  <p class="stat-desc">Transactions processed monthly</p>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-icon">
+                    <i data-lucide="shield-check"></i>
+                  </div>
+                  <h3 class="stat-title">99.99%</h3>
+                  <p class="stat-desc">Uptime with enterprise security</p>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-icon">
+                    <i data-lucide="credit-card"></i>
+                  </div>
+                  <h3 class="stat-title">5M+</h3>
+                  <p class="stat-desc">Active users worldwide</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section" id="features">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">
+                Built for the Way You <span class="gradient-text">Manage Money</span>
+              </h2>
+              <p class="section-subtitle">
+                Our platform combines powerful financial tools with an intuitive interface
+                to give you complete control over your finances.
+              </p>
+            </div>
+
+            <div class="bento-grid">
+              <div class="bento-item col-span-2">
+                <i data-lucide="credit-card" class="feature-icon blue-icon"></i>
+                <h3 class="feature-title">Smart Cards</h3>
+                <p class="feature-desc">Virtual and physical cards with real-time controls and insights on your spending.</p>
+              </div>
+              <div class="bento-item">
+                <i data-lucide="trending-up" class="feature-icon purple-icon"></i>
+                <h3 class="feature-title">Investment Tools</h3>
+                <p class="feature-desc">Advanced portfolio tracking and investment recommendations based on your goals.</p>
+              </div>
+              <div class="bento-item">
+                <i data-lucide="dollar-sign" class="feature-icon teal-icon"></i>
+                <h3 class="feature-title">Budgeting</h3>
+                <p class="feature-desc">Create custom budgets and track your progress with intuitive visualizations.</p>
+              </div>
+              <div class="bento-item">
+                <i data-lucide="shield" class="feature-icon green-icon"></i>
+                <h3 class="feature-title">Fraud Protection</h3>
+                <p class="feature-desc">Real-time monitoring and AI-powered fraud detection to keep your money safe.</p>
+              </div>
+              <div class="bento-item">
+                <i data-lucide="bell-ring" class="feature-icon blue-icon"></i>
+                <h3 class="feature-title">Smart Alerts</h3>
+                <p class="feature-desc">Customizable notifications for transactions, bill payments, and account activity.</p>
+              </div>
+              <div class="bento-item col-span-2">
+                <i data-lucide="smartphone" class="feature-icon purple-icon"></i>
+                <h3 class="feature-title">Mobile Banking</h3>
+                <p class="feature-desc">Full-featured mobile experience with biometric security and instant payments.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section class="dashboard-section" id="dashboard">
+          <div class="bg-gradient-dashboard"></div>
+          
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">
+                Powerful <span class="gradient-text">Analytics</span> Dashboard
+              </h2>
+              <p class="section-subtitle">
+                Get a complete overview of your finances with our intuitive dashboard. 
+                Track spending, monitor investments, and plan for the future.
+              </p>
+            </div>
+
+            <div class="bento-grid">
+              <!-- Main chart -->
+              <div class="bento-item col-span-3">
+                <div class="dashboard-header">
+                  <div>
+                    <h3 class="dashboard-title">Financial Overview</h3>
+                    <p class="dashboard-subtitle">Monthly performance</p>
+                  </div>
+                  <div class="time-filter">
+                    <span>This Year</span>
+                  </div>
+                </div>
+                <div class="chart-container">
+                  <canvas id="financialChart"></canvas>
+                </div>
+              </div>
+
+              <!-- Balance card -->
+              <div class="bento-item balance-card">
+                <div class="card-header">
+                  <div class="card-label">Total Balance</div>
+                  <i data-lucide="wallet" class="card-icon blue-icon"></i>
+                </div>
+                <div class="balance-amount">$24,562.65</div>
+                <div class="balance-trend positive">
+                  <i data-lucide="trending-up"></i>
+                  <span>+2.45% from last month</span>
+                </div>
+              </div>
+
+              <!-- Spending card -->
+              <div class="bento-item">
+                <div class="card-header">
+                  <div class="card-label">Monthly Spending</div>
+                  <i data-lucide="dollar-sign" class="card-icon purple-icon"></i>
+                </div>
+                <div class="spending-amount">$7,842.98</div>
+                
+                <div class="expense-categories">
+                  <div class="expense-category">
+                    <div class="expense-header">
+                      <span class="expense-name">Housing</span>
+                      <span class="expense-value">$2,400</span>
+                    </div>
+                    <div class="progress-container">
+                      <div class="progress-bar blue" style="width: 30%"></div>
+                      <span class="progress-label">30%</span>
+                    </div>
+                  </div>
+                  <div class="expense-category">
+                    <div class="expense-header">
+                      <span class="expense-name">Food</span>
+                      <span class="expense-value">$1,200</span>
+                    </div>
+                    <div class="progress-container">
+                      <div class="progress-bar purple" style="width: 15%"></div>
+                      <span class="progress-label">15%</span>
+                    </div>
+                  </div>
+                  <div class="expense-category">
+                    <div class="expense-header">
+                      <span class="expense-name">Transport</span>
+                      <span class="expense-value">$800</span>
+                    </div>
+                    <div class="progress-container">
+                      <div class="progress-bar teal" style="width: 10%"></div>
+                      <span class="progress-label">10%</span>
+                    </div>
+                  </div>
+                  <div class="expense-category">
+                    <div class="expense-header">
+                      <span class="expense-name">Other</span>
+                      <span class="expense-value">$3,442.98</span>
+                    </div>
+                    <div class="progress-container">
+                      <div class="progress-bar green" style="width: 45%"></div>
+                      <span class="progress-label">45%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recent transactions -->
+              <div class="bento-item col-span-2">
+                <div class="card-header">
+                  <div class="card-label">Recent Transactions</div>
+                  <i data-lucide="bar-chart-3" class="card-icon teal-icon"></i>
+                </div>
+                
+                <div class="transactions">
+                  <div class="transaction">
+                    <div class="transaction-icon negative">
+                      <i data-lucide="arrow-down-right"></i>
+                    </div>
+                    <div class="transaction-details">
+                      <div class="transaction-name">Starbucks</div>
+                      <div class="transaction-category">Food & Drink</div>
+                    </div>
+                    <div class="transaction-amount">
+                      <div class="amount negative">-$4.95</div>
+                      <div class="transaction-date">Today</div>
+                    </div>
+                  </div>
+                  <div class="transaction">
+                    <div class="transaction-icon negative">
+                      <i data-lucide="arrow-down-right"></i>
+                    </div>
+                    <div class="transaction-details">
+                      <div class="transaction-name">Amazon</div>
+                      <div class="transaction-category">Shopping</div>
+                    </div>
+                    <div class="transaction-amount">
+                      <div class="amount negative">-$56.32</div>
+                      <div class="transaction-date">Yesterday</div>
+                    </div>
+                  </div>
+                  <div class="transaction">
+                    <div class="transaction-icon negative">
+                      <i data-lucide="arrow-down-right"></i>
+                    </div>
+                    <div class="transaction-details">
+                      <div class="transaction-name">Uber</div>
+                      <div class="transaction-category">Transport</div>
+                    </div>
+                    <div class="transaction-amount">
+                      <div class="amount negative">-$22.15</div>
+                      <div class="transaction-date">Jun 24</div>
+                    </div>
+                  </div>
+                  <div class="transaction">
+                    <div class="transaction-icon positive">
+                      <i data-lucide="trending-up"></i>
+                    </div>
+                    <div class="transaction-details">
+                      <div class="transaction-name">Salary</div>
+                      <div class="transaction-category">Income</div>
+                    </div>
+                    <div class="transaction-amount">
+                      <div class="amount positive">+$4,500.00</div>
+                      <div class="transaction-date">Jun 22</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section" id="testimonials">
+          <div class="bg-gradient-testimonials"></div>
+          
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">
+                Trusted by <span class="gradient-text">Thousands</span> of Customers
+              </h2>
+              <p class="section-subtitle">
+                See what our customers say about our platform and how it has transformed their financial lives.
+              </p>
+            </div>
+
+            <div class="testimonials-grid">
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                </div>
+                <p class="testimonial-quote">"Bento Finance has completely transformed how I manage my money. The insights and analytics have helped me save an extra $500 every month."</p>
+                <div class="testimonial-author">Sarah Johnson</div>
+                <div class="testimonial-title">Small Business Owner</div>
+              </div>
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                </div>
+                <p class="testimonial-quote">"The dashboard gives me a clear picture of my finances at a glance. I can make better decisions faster with all my data in one place."</p>
+                <div class="testimonial-author">James Rodriguez</div>
+                <div class="testimonial-title">Marketing Director</div>
+              </div>
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-filled"></i>
+                  <i data-lucide="star" class="star-empty"></i>
+                </div>
+                <p class="testimonial-quote">"I've tried many financial apps, but this one stands out for its ease of use and powerful features. The budgeting tools are exceptional."</p>
+                <div class="testimonial-author">Michael Chen</div>
+                <div class="testimonial-title">Software Engineer</div>
+              </div>
+            </div>
+
+            <div class="logos-grid">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Forbes_logo.svg/1280px-Forbes_logo.svg.png" alt="Forbes" class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/TechCrunch_logo.svg" alt="TechCrunch" class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/1280px-Wired_logo.svg.png" alt="Wired" class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_logo.svg/1280px-Bloomberg_logo.svg.png" alt="Bloomberg" class="brand-logo">
+            </div>
+
+            <div class="testimonials-cta">
+              <a href="#" class="link-with-arrow">
+                Read more success stories 
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="pricing">
+          <div class="bg-gradient-cta-1"></div>
+          <div class="bg-gradient-cta-2"></div>
+          
+          <div class="container">
+            <div class="cta-card">
+              <div class="cta-content">
+                <h2 class="cta-title">
+                  Ready to take control of your <span class="gradient-text">financial future</span>?
+                </h2>
+                <p class="cta-subtitle">
+                  Join thousands of people who are already using Bento Finance to manage their money smarter.
+                </p>
+                
+                <div class="feature-list">
+                  <div class="feature-check">
+                    <i data-lucide="check-circle" class="check-icon"></i>
+                    <span>No hidden fees or minimums</span>
+                  </div>
+                  <div class="feature-check">
+                    <i data-lucide="check-circle" class="check-icon"></i>
+                    <span>FDIC insured up to $250,000</span>
+                  </div>
+                  <div class="feature-check">
+                    <i data-lucide="check-circle" class="check-icon"></i>
+                    <span>256-bit encryption security</span>
+                  </div>
+                  <div class="feature-check">
+                    <i data-lucide="check-circle" class="check-icon"></i>
+                    <span>24/7 customer support</span>
+                  </div>
+                </div>
+                
+                <button class="btn btn-primary btn-lg">
+                  Get Started Now
+                  <i data-lucide="arrow-right"></i>
+                </button>
+              </div>
+              
+              <div class="pricing-card">
+                <div class="pricing-card-inner">
+                  <div class="pricing-header">
+                    <div>
+                      <h3 class="pricing-title">Premium Plan</h3>
+                      <p class="pricing-subtitle">Everything you need</p>
+                    </div>
+                    <div class="pricing-amount">
+                      <div class="price">$9.99</div>
+                      <div class="billing-cycle">per month</div>
+                    </div>
+                  </div>
+                  
+                  <div class="pricing-features">
+                    <div class="feature-check">
+                      <i data-lucide="check-circle" class="check-icon"></i>
+                      <span>Unlimited transactions</span>
+                    </div>
+                    <div class="feature-check">
+                      <i data-lucide="check-circle" class="check-icon"></i>
+                      <span>Advanced analytics dashboard</span>
+                    </div>
+                    <div class="feature-check">
+                      <i data-lucide="check-circle" class="check-icon"></i>
+                      <span>Multiple savings goals</span>
+                    </div>
+                    <div class="feature-check">
+                      <i data-lucide="check-circle" class="check-icon"></i>
+                      <span>Automated bill payments</span>
+                    </div>
+                    <div class="feature-check">
+                      <i data-lucide="check-circle" class="check-icon"></i>
+                      <span>Investment portfolio tracking</span>
+                    </div>
+                    <div class="feature-check">
+                      <i data-lucide="check-circle" class="check-icon"></i>
+                      <span>Priority customer support</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="pricing-options">
+                  <a href="#" class="link-blue">
+                    View all pricing options
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-about">
+              <h3 class="footer-logo">
+                <span class="gradient-text">Bento</span>
+                <span>Finance</span>
+              </h3>
+              <p class="footer-desc">
+                The modern way to manage your money, with powerful tools and intuitive design.
+              </p>
+              <div class="social-icons">
+                <a href="#" class="social-link">
+                  <i data-lucide="facebook"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i data-lucide="twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i data-lucide="instagram"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i data-lucide="linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-links">
+              <h4 class="footer-heading">Products</h4>
+              <ul class="footer-menu">
+                <li><a href="#" class="footer-link">Personal Banking</a></li>
+                <li><a href="#" class="footer-link">Business Accounts</a></li>
+                <li><a href="#" class="footer-link">Investment Tools</a></li>
+                <li><a href="#" class="footer-link">Credit Cards</a></li>
+                <li><a href="#" class="footer-link">Loans</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links">
+              <h4 class="footer-heading">Company</h4>
+              <ul class="footer-menu">
+                <li><a href="#" class="footer-link">About Us</a></li>
+                <li><a href="#" class="footer-link">Careers</a></li>
+                <li><a href="#" class="footer-link">Press Kit</a></li>
+                <li><a href="#" class="footer-link">Blog</a></li>
+                <li><a href="#" class="footer-link">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links">
+              <h4 class="footer-heading">Resources</h4>
+              <ul class="footer-menu">
+                <li><a href="#" class="footer-link">Help Center</a></li>
+                <li><a href="#" class="footer-link">Developer API</a></li>
+                <li><a href="#" class="footer-link">Status Page</a></li>
+                <li><a href="#" class="footer-link">Security</a></li>
+                <li><a href="#" class="footer-link">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="copyright">
+              © 2023 Bento Finance. All rights reserved. Anibel Adjei
+            </div>
+            <div class="legal-links">
+              <a href="#" class="legal-link">Privacy Policy</a>
+              <a href="#" class="legal-link">Terms of Service</a>
+              <a href="#" class="legal-link">Cookies</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="java.js"></script>
+  </body>
+</html>
