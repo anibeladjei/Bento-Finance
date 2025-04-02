@@ -238,7 +238,12 @@
   
   .nav-buttons {
     display: flex;
+    margin-left: 50px;
     gap: 1rem;
+  }
+  .desktop-nav {
+    display: flex;
+    align-items: center;
   }
   
   .mobile-menu-btn {
